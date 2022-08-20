@@ -1,0 +1,9 @@
+@use './palette'as pa;
+
+$color-base-background: pa.$palette-white;
+$color-globalHeader-background: pa.$palette-brown-pale;
+$color-globalFooter-background: pa.$palette-brown-thin;
+$color-sidebar-background: pa.$palette-gray-pale;
+$color-text--white: pa.$palette-white-true;
+$color-text--gray: pa.$palette-gray;
+$color-text--brown: pa.$palette-brown-dark;

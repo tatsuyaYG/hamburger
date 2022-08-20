@@ -1,0 +1,20 @@
+{
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.compileOnWatch": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },    
+    ],
+
+    "liveSassCompile.settings.autoprefix": [
+
+
+        "last 2 versions",
+        "ie >= 11",
+        "Android >= 4",
+        "ios_saf >= 8"
+    ]
+}

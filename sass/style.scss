@@ -1,0 +1,66 @@
+/* Foundation */
+@use "foundation/base";
+
+@forward  "./object/component/c-search-box";
+@use  "./foundation/colors" as color;
+// .c-text-box{
+//     border: 1px solid #707070;
+//     border-radius: 0.5em;
+
+// }
+
+.c-search-button{
+    border: 1px solid #707070;
+        border-radius: 0.5em;
+        background-color: #F2EDE9;
+}
+.p-search-form{
+    display: flex;
+    &__button{
+        width: 50px;
+        text-align: center;
+    }
+}
+.p-front-content{
+    display: flex;
+}
+.p-front-section{
+    padding: 5px 0;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    &__takeout{
+        background: no-repeat url("/image/takeout.jpg");
+        background-size: cover;
+        
+    }
+    &__eatin{
+        background: no-repeat url("/image/eatin.jpg");
+    }
+
+    &__title{
+        margin: 5px auto 80px 5px;
+    }
+}
+.p-text--white{
+    color: #FFF;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.c-underline--white{
+    border-bottom: solid 1px #FFF;
+    width: 2rem;
+    height: 1rem;
+    
+}
+.a{
+    font-size: 1rem;
+    color: #000;
+}
+.transparentBox--white{
+    background-color: #FFF;
+    opacity: 0.8;
+    margin: 5px 5px;
+    z-index: -1;
+}
