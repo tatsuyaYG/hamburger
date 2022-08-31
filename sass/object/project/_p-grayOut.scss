@@ -1,0 +1,6 @@
+.p-grayOut{
+    display: none;
+    &.is-open{
+        display: block;
+    }
+}

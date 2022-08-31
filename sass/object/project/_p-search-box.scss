@@ -1,0 +1,19 @@
+@use "../component/c-text-box";
+// FontAwesome使用
+// <i class="fa-solid fa-magnifying-glass"></i>
+
+
+.p-search-box{
+    position: relative;
+    i{
+        position: absolute;
+        top: 50%;
+        left: 0.5rem;
+        transform: translateY(-50%);
+        color: #808080;
+    }
+}
+
+.size{
+    font-size: 1.6rem;
+}

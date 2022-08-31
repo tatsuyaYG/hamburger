@@ -6,11 +6,16 @@ img{
     max-width: 100%;
 }
 body{
-    font-family: 'Roboto','M PLUS 1', sans-serif;
+    font-family: 'Roboto','M PLUS 1','M PLUS Code Latin', sans-serif;
     color: #121212;
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 1.6rem;
+    line-height: 1.43;
+    overflow-x: hidden;
+    min-width: 320px;
 }
 a{
     text-decoration: none;
+}
+li{
+    list-style: none;
 }

@@ -1,0 +1,22 @@
+@use "../../foundation/colors" as color;
+
+.p-about{
+    background: no-repeat url("/image/mapSP.jpg");
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: auto;
+    padding: 40px 40px 51px 40px;
+    margin-top: 49px;
+    &__title{
+        font-size: 3rem;
+        color: color.$color-text--white;
+        font-weight: bold;
+    }
+    &__text{
+        font-size: 1.4rem;
+        color: color.$color-text--white;
+        font-weight: bold;
+        line-height: 2.35;
+    }
+}
