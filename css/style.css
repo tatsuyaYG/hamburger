@@ -80,7 +80,7 @@ li {
 }
 
 .c-underline--white {
-  border-bottom: solid 1px #FFF;
+  border-bottom: solid 4px #FFF;
 }
 
 .c-transparentBox--white {
@@ -185,6 +185,7 @@ li {
   height: auto;
   margin: 0 auto;
   padding-bottom: 15px;
+  position: relative;
 }
 .p-front-section--takeout {
   background: no-repeat url("/image/takeout.jpg");
@@ -198,7 +199,9 @@ li {
   color: #FFF;
   font-size: 4.1rem;
   font-weight: bold;
-  margin: 11px auto 300px 15px;
+  width: 100%;
+  margin: 0 auto 10px 15px;
+  padding-top: 11px;
 }
 
 .p-productBox {
@@ -214,27 +217,7 @@ li {
 }
 .p-productBox__text {
   margin: auto 10px;
-}
-
-.p-about {
-  background: no-repeat url("/image/mapSP.jpg");
-  background-color: rgba(0, 0, 0, 0.6);
-  background-blend-mode: darken;
-  background-size: cover;
-  height: auto;
-  padding: 40px 40px 51px 40px;
-  margin-top: 49px;
-}
-.p-about__title {
-  font-size: 3rem;
-  color: #FFF;
-  font-weight: bold;
-}
-.p-about__text {
-  font-size: 1.4rem;
-  color: #FFF;
-  font-weight: bold;
-  line-height: 2.35;
+  line-height: 1.4375;
 }
 
 .p-menu-button {
@@ -328,7 +311,10 @@ li {
   font-size: 2.4rem;
   font-weight: bold;
   color: #707070;
-  padding: 43px 0 22px 46px;
+  padding: 0 0 100% 46px;
+}
+.p-side-menu li {
+  padding-top: 43px;
 }
 .p-side-menu__sub {
   font-size: 2rem;
@@ -336,7 +322,32 @@ li {
 }
 .p-side-menu__sub li {
   padding-left: 20px;
-  padding-top: 14px;
+  padding-top: 22px;
+}
+
+.p-about {
+  background: no-repeat url("/image/mapSP.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  background-size: cover;
+  height: auto;
+  padding: 40px 40px 51px 40px;
+  margin-top: 49px;
+}
+.p-about__title {
+  font-size: 3rem;
+  color: #FFF;
+  font-weight: bold;
+}
+.p-about__text {
+  font-size: 1.4rem;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 2.3571428571;
+}
+
+.p-content {
+  margin-top: 20px;
 }
 
 .p-grayOut {
@@ -344,6 +355,18 @@ li {
 }
 .p-grayOut.is-open {
   display: block;
+}
+
+.u-underline-front--about {
+  border-bottom-width: 2px;
+  width: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.u-underline-front--section {
+  width: 34px;
+  margin-left: 15px;
+  margin-bottom: 280px;
 }
 
 /**
@@ -356,4 +379,5 @@ li {
  *  Object
  * ============================ */
 /* Component ----------------*/
-/* Project ------------------*//*# sourceMappingURL=style.css.map */
+/* Project ------------------*/
+/* Utility -------------------*//*# sourceMappingURL=style.css.map */

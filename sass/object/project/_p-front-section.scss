@@ -5,6 +5,7 @@
     height: auto;
     margin: 0 auto;
     padding-bottom: 15px;
+    position: relative;
     &--takeout{
         background: no-repeat url("/image/takeout.jpg");
         background-size: cover;
@@ -17,6 +18,8 @@
         color: color.$color-text--white;
         font-size: 4.1rem;
         font-weight: bold;
-        margin: 11px auto 300px 15px;
+        width: 100%;
+        margin: 0 auto 10px 15px;
+        padding-top: 11px;
     }
 }
