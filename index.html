@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="js/js-menu.js"></script>
+    <script defer src="js/js-main-visual.js"></script>
+    <script defer src="js/js-menu.js"></script>
+    <script defer src="js/js-section.js"></script>
 
 </head>
 <body class="l-page-layout">
@@ -21,86 +23,84 @@
                 <h1 class="p-header__logo">
                     <p>Hamburger</p>
                 </h1>
-                <label for="" class="p-search-form" >
+                <div for="" class="p-search-form" >
                     <form action="#" method="post" name="検索フォーム">
-                        <div class="p-search-box p-search-form__textForm">
+                        <label class="p-search-box p-search-form__textForm">
                             <i class="fa-solid fa-magnifying-glass size"></i>
                             <input class="c-text-box p-search-form__textBox" type="text">
-                        </div>
+                        </label>
                     </form>
                         <button class="c-button--search p-search-form__button" type="button">検索</button>
-                </label>
-                <!-- <button class="p-menu-button js-menu">Menu</button> -->
+                </div>
             </header>
 
             <main class="p-main">
-                <div class="p-main-visual">
+                <div class="p-main-visual js-main-visual">
                     <img src="/image/main-visual-SP.jpg" alt="トップページ">
                     <h1>ダミーサイト</h1>
                 </div>
 
-                <div class="p-content p-content--front">
-                    <section class="p-front-section p-front-section--takeout">
-                        <h2 class="p-front-section__title">
-                            Take Out
-                        </h2>
-                        <div class="c-underline--white u-underline-front--section"></div>
-                        <div class="p-productBox c-transparentBox--white">
-                            <ul class="p-productBox__title">Take OUT</ul>
-                            <li class="p-productBox__text">
-                                当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当
-                            </li>
-                        </div>
-                        <div class="p-productBox c-transparentBox--white">
-                            <ul class="p-productBox__title">Take OUT</ul>
-                            <li class="p-productBox__text">
-                                当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当
-                            </li>
-                        </div>
-                    </section>
-                </div>
-                <div class="p-content p-content--front">
-                    <section class="p-front-section p-front-section--eatIn">
-                        <h2 class="p-front-section__title">
-                            Eat In
-                        </h2>
-                        <div class="c-underline--white u-underline-front--section"></div>
-                        <div class="p-productBox c-transparentBox--white">
-                            <ul class="p-productBox__title">Eat In</ul>
-                            <li class="p-productBox__text">
-                                店内でお食事いただけるメニューです店内でお食事いただけるメニューです
-                            </li>
-                        </div>
-                        <div class="p-productBox c-transparentBox--white">
-                            <ul class="p-productBox__title">Eat In</ul>
-                            <li class="p-productBox__text">
-                                店内でお食事いただけるメニューです店内でお食事いただけるメニューです
-                            </li>
-                        </div>
-                    </section>
-                </div>
+                <section class="p-content">
+                    <div class="p-content--front">
+                        <section id="section1" class="p-front-section p-front-section--takeout">
+                            <h2 class="p-front-section__title">
+                                Take Out
+                            </h2>
+                            <div class="c-underline--white u-underline-front--section"></div>
+                            <div class="p-productBox c-transparentBox--white">
+                                <ul class="p-productBox__title">Take OUT</ul>
+                                <li class="p-productBox__text">
+                                    当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
+                                </li>
+                            </div>
+                            <div class="p-productBox c-transparentBox--white">
+                                <ul class="p-productBox__title">Take OUT</ul>
+                                <li class="p-productBox__text">
+                                    当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
+                                </li>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="p-content--front">
+                        <section id="section2" class="p-front-section p-front-section--eatIn">
+                            <h2 class="p-front-section__title">
+                                Eat In
+                            </h2>
+                            <div class="c-underline--white u-underline-front--section"></div>
+                            <div class="p-productBox c-transparentBox--white">
+                                <ul class="p-productBox__title">Eat In</ul>
+                                <li class="p-productBox__text">
+                                    店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
 
-                <div class="p-about">
-                    <h2 class="p-about__title">
-                        見出しが入ります
-                    </h2>
-                    <div class="c-underline--white u-underline-front--about"></div>
-                    <p class="p-about__text">
-                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                        テキストが入ります。テキストが入ります。テキストが入りま
-                    </p>
-                </div>
+                                </li>
+                            </div>
+                            <div class="p-productBox c-transparentBox--white">
+                                <ul class="p-productBox__title">Eat In</ul>
+                                <li class="p-productBox__text">
+                                    店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
+                                </li>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+                <aside class="p-about">
+                    <div class="p-about__textarea  c-background--gray p-grayOut--about">
+                        <h2 class="p-about__title">
+                            見出しが入ります
+                        </h2>
+                        <div class="c-underline--white u-underline-front--about"></div>
+                        <p class="p-about__text">
+                            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            テキストが入ります。テキストが入ります。テキストが入りま
+                            終わり
+                        </p>
+                    </div>
+                </aside>
             </main>
 
-            <footer class="p-footer">
-                <img src="/image/footerSP.jpg" alt="フッター">
-                <div class="p-footer__text">
-                    <p class="p-footer__link"><a href="#">ショップ情報</a>　|　<a href="#">ヒストリー</a></p>
-                    <p class="p-footer__copy"><small>Copyright: RaiseTech</small></p>
-                </div>
-            </footer>
         </div>
 
         <nav id="side-nav" class="p-side-nav">
@@ -136,10 +136,21 @@
 
     </div>
 
+    <footer id="footer" class="p-footer">
+        <img src="/image/footerSP.jpg" alt="フッター">
+        <div class="p-footer__block">
+            <ul class="p-footer__text">
+                <li class="p-footer__link p-footer__link--shop"><a href="#">ショップ情報</a></li>
+                <li class="p-footer__link p-footer__link--history"><a href="#">ヒストリー</a></li>
+            </ul>
+            <p class="p-footer__text p-footer__copy"><small>Copyright: RaiseTech</small></p>
+        </div>
+    </footer>
+
     <button id="menu-button" class="p-menu-button js-menu">Menu</button>
 
     <!-- グレーアウト -->
-    <div id="grayOut" class="p-grayOut c-background--gray"></div>
+    <div id="grayOut" class="p-grayOut--full c-background--gray"></div>
 
 </body>
 </html>

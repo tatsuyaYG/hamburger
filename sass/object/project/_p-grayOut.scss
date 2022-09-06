@@ -1,6 +1,12 @@
-.p-grayOut{
-    display: none;
-    &.is-open{
-        display: block;
+.p-grayOut {
+    &--full {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        &.is-open {
+            display: block;
+        }
     }
+
 }

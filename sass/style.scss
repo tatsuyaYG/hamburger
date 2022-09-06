@@ -2,9 +2,10 @@
  *  Foundation
  * ============================ */
 
-@use "./foundation/base";
 @use "./foundation/palette";
 @use  "./foundation/colors" as color;
+@use "./foundation/base";
+@use "./foundation/mixin";
 
 /**
  *  Layout
@@ -43,6 +44,3 @@
 /* Utility -------------------*/
 
 @use "object/utility";
-// .p-content{
-//     margin-top: 20px;
-// }

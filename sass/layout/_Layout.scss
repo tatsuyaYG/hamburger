@@ -1,4 +1,6 @@
 @use "../foundation/colors" as color;
+@use "../foundation/mixin" as mq;
+
 
 .l-header{
     background-color: color.$color-header-background;
@@ -6,12 +8,17 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    @include mq.mq(pc){
+        flex-direction: row;
+    }
 }
 
-// .l-wrapper{
-    // position: relative;
-    // display: flex;
-// }
+@include mq.mq(pc){
+    .l-wrapper{
+        display: flex;
+    }
+}
+
 .l-content-wrapper{
     display: flex;
     flex-direction: column;

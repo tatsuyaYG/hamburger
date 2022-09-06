@@ -1,4 +1,5 @@
 @use "../../foundation/colors" as color;
+@use "../../foundation/mixin" as mq;
 
 .p-side-nav{
     background-color: color.$color-sidebar-background;
@@ -13,5 +14,11 @@
     &.is-open{
         left:calc(100vw - 328px);
         position: absolute;
+    }
+    @include mq.mq(tab){
+        width: 367px;
+    }
+    @include mq.mq(pc){
+        position: static;
     }
 }

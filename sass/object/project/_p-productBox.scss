@@ -1,17 +1,33 @@
 @use "../../foundation/colors" as color;
+@use "../../foundation/mixin" as mq;
 
 .p-productBox{
     margin: 15px 15px 0 15px;
     color: color.$color-text--brown;
+    width: calc(100% - 30px);
     &__title{
         font-family: 'M PLUS Code Latin' ;
         font-size: 2.2rem;
         font-weight: bold;
         margin-top: 7px;
         margin-left: 10px;
+        transition: all 0.3s;
+        @include mq.mq(tab){
+            font-size: 2.4rem;
+        }
     }
     &__text{
         margin: auto 10px;
         line-height: calc(23 /16);
+        transition: all 0.3s;
+        @include mq.mq(tab){
+            font-size: 1.4rem;
+            line-height: calc(20 / 14);
+        }
+        @include mq.mq(pc){
+            font-size: 1.6rem;
+            line-height: calc(23 / 16);
+        }
+
     }
 }
