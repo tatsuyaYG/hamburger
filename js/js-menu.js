@@ -6,6 +6,15 @@ $(function () {
     var gray = $('#grayOut');
     var button = $('#menu-button');
     var footer = $('#footer');
+
+    $(window).on('load',function(){
+        if (window.matchMedia('(min-width:1250px)').matches) {
+            button.prop('disabled', true);
+        } else {
+            button.prop('disabled', false);
+        };
+    });
+
     $(window).resize(function () {
         if (window.matchMedia('(min-width:1250px)').matches) {
             button.prop('disabled', true);
