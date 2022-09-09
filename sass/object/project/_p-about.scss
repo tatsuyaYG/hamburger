@@ -8,6 +8,7 @@
     // background-blend-mode: darken;
     height: 100%;
     margin-top: 49px;
+    position: relative;
 
     @include mq.mq(tab) {
         background-image: url("/image/mapTab.jpg");
@@ -49,11 +50,31 @@
     }
 
     &__textarea {
+        position: relative;
         padding: 40px;
         height: 100%;
-
+        z-index: 100;
         @include mq.mq(pc) {
             width: 65%;
         }
+    }
+
+    &__layer1{
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    &__layer2{
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 60%;
+        @include mq.mq(tab) {
+            height: 100%;
+        }
+        @include mq.mq(pc) {
+            width: 65%;
+        }
+
     }
 }
