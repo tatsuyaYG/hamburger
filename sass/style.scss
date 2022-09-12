@@ -19,26 +19,12 @@
 
 /* Component ----------------*/
 
-@use "./object/component/c-button";
-@use "./object/component/c-text-box";
-@use "./object/component/c-underline";
-@use "./object/component/c-transparentBox";
-@use "./object/component/c-background";
+@use "./object/component";
 
 // @use "./object/component/component";
 
 /* Project ------------------*/
 
-@use "./object/project/p-search-form";
-@use "./object/project/p-search-box";
-@use "./object/project/p-header";
-@use "./object/project/p-main-visual";
-@use "./object/project/p-front-section";
-@use "./object/project/p-productBox";
-@use "./object/project/p-menu-button";
-@use "./object/project/p-footer";
-@use "./object/project/p-side-nav";
-@use "./object/project/p-side-menu";
 @use "object/project";
 
 /* Utility -------------------*/

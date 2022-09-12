@@ -27,4 +27,42 @@
             left: 90px
         };
     }
+
+    &--archive{
+        img{
+        object-fit: none;
+        height: 285px;
+        object-position: 30% 45%;
+        }
+
+        &__layer{
+            position: absolute;
+            top:0;
+        }
+        p{
+            position: absolute;
+            top: 65%;
+            left: 25px;
+            transform: translateY(-50%);
+            color: color.$color-text--white;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        h1,p{
+            z-index: 10;
+        }
+        @include mq.mq(tab){
+            img{
+                object-position: 45% 45%;;
+            }
+            h1{
+                font-size: 6rem;
+                left: 80px;
+            }
+            p{
+                top: 52%;
+                left: 275px;
+            }
+        };
+    }
 }

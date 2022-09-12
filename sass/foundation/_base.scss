@@ -9,7 +9,7 @@ body{
     font-family: 'Roboto','M PLUS 1','M PLUS Code Latin', sans-serif;
     color: #121212;
     font-size: 1.6rem;
-    line-height: 1.43;
+    line-height: calc(23 / 16);
     overflow-x: hidden;
     min-width: 340px;
 }
