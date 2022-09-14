@@ -75,4 +75,20 @@
             }
         };
     }
+
+    &--single{
+        h1{
+            font-size: 3.6rem;
+        }
+        p{
+            position: absolute;
+            top: 50%;
+            left: 80px;
+            transform: translateY(-50%);
+            color: color.$color-text--white;
+            font-size: 3.6rem;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+    }
 }
