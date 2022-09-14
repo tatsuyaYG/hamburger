@@ -65,4 +65,14 @@
             }
         };
     }
+
+    &--archive-search{
+        @extend .p-main-visual--archive;
+        @include mq.mq(tab){
+            p{
+                top: 52%;
+                left: 300px;
+            }
+        };
+    }
 }
