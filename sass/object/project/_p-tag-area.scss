@@ -1,0 +1,8 @@
+@use "../../foundation/colors" as color;
+
+.p-tag-area{
+    &__text{
+        padding-top: 5%;
+        padding-left: 15%;
+    }
+}
