@@ -1,0 +1,16 @@
+.p-page-content{
+    display: flex;
+    padding-top: 30px;
+    p{
+        width: 60vw;
+    }
+    img{
+        width: 40vw;
+        height: 25vw;
+    }
+
+    &__2{
+        flex-direction: row-reverse;
+    }
+
+}

@@ -960,6 +960,7 @@ ol {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
+  padding-top: 30px;
 }
 .p-single-page__list1 {
   margin-top: 30px;
@@ -1015,6 +1016,28 @@ ol {
 .p-bold--single {
   margin-top: 30px;
   font-weight: bold;
+}
+
+.p-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+.p-page-content p {
+  width: 60vw;
+}
+.p-page-content img {
+  width: 40vw;
+  height: 25vw;
+}
+.p-page-content__2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .u-underline-front--about {
