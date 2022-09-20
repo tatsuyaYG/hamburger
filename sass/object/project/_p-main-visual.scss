@@ -90,5 +90,30 @@
             font-weight: bold;
             transition: all 0.3s;
         }
+        @include mq.mq(tab){
+            img{
+                height: 500px;
+            }
+            h1{
+                font-size: 6rem;
+                left: 86px
+            }
+            p{
+                font-size: 6rem;
+                left: 190px;
+            }
+        };
+    }
+
+    &__page{
+        @include mq.mq(tab){
+            img{
+                height: 500px;
+            }
+            h1{
+                font-size: 6rem;
+                left: 86px;
+            }
+        }
     }
 }
