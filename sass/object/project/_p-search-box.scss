@@ -8,12 +8,16 @@
     i{
         position: absolute;
         top: 50%;
-        left: 0.5rem;
-        transform: translateY(-25%);
+        left: 1.5rem;
+        transform: translateY(-30%);
         color: #808080;
     }
+    input[type="search"]::-webkit-search-cancel-button {   
+        position: absolute;
+        right: 1rem;;
+     }
 }
 
 .size{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }

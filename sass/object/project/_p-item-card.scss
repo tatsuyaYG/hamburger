@@ -7,6 +7,9 @@
     color: color.$color-text--white;
     display: flex;
     flex-direction: column;
+    img{
+        object-fit: cover;
+    }
     @include mq.mq(tab){
         flex-direction: row;
 
