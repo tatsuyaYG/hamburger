@@ -842,8 +842,8 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 50%;
   left: 1.5rem;
-  -webkit-transform: translateY(-30%);
-          transform: translateY(-30%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   color: #808080;
 }
 .p-search-box input[type=search]::-webkit-search-cancel-button {
